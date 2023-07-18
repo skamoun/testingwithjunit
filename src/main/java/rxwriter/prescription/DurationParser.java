@@ -24,6 +24,7 @@ public class DurationParser {
         return 0;
     }
 
+
     private static int unitValueCalculation(String unitString, String valueString) {
         DurationUnit unit = DurationUnit.getByTextValue(unitString);
         if (unit == null) {
